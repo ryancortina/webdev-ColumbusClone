@@ -38,9 +38,9 @@ nav{
 
 #navbar li:nth-child(n + 8){
     color: #a3dde8;
-    font-weight: lighter !important;
+    font-weight: lighter;
     font-size: 1.12em;
-    margin: 0 10px !important;
+    margin: 0 10px;
 }
 
 #navbarimg img{
@@ -109,3 +109,19 @@ nav{
 }
 
 
+/* --------------------------------------- menu-container ----------------------------*/
+
+
+
+#bigbox{
+    height:99px;
+    width: 1938px;
+    background-color:#10243B;
+}
+#menu-container{
+    font-size: 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-style: solid;
+}
