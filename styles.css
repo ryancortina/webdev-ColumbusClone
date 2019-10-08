@@ -115,13 +115,18 @@ nav{
 
 #bigbox{
     height:99px;
-    width: 1938px;
+    width: 100%;
     background-color:#10243B;
-}
-#menu-container{
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'PT Sans Narrow', sans-serif;
     font-style: normal;
     font-weight: 700;
     text-decoration-style: solid;
+    color: white;
+    text-align: center;
+    padding-top: 25PX;
+}
+
+#AROOW{
+    background-image: url(arrow.png)
 }
