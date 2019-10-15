@@ -111,22 +111,42 @@ nav{
 
 /* --------------------------------------- menu-container ----------------------------*/
 
-
-
-#bigbox{
-    height:99px;
+#exploresection{
     width: 100%;
-    background-color:#10243B;
-    font-size: 1.5em;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    text-decoration-style: solid;
-    color: white;
-    text-align: center;
-    padding-top: 25PX;
+    height: 400px;
+    background-color: #10243B;
 }
 
-#AROOW{
-    background-image: url(arrow.png)
+#exploreheader{
+    height: 70px;
+    width: 100%;
+    background-color: #10243B;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 9px;
+    border-bottom: 8px solid skyblue;
+}
+
+#explorecontent{
+    height: 330px;
+    width: 100%;
+    background-color: firebrick;
+    display: inline;
+}
+
+#explorebox{
+    height: 328;
+    width: 25%;
+    background-color:green;
+}
+
+.left{
+    float:left;
+}
+
+#patriot{
+    background-image: url(images/patriots\ plaza.jpg);
+    background-position: center;
+    background-size: cover;
 }
