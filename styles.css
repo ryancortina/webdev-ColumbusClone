@@ -50,6 +50,8 @@ nav{
 #bluenavbar{
     background-color: #0088cc;
     width: 9%;
+    color: white;
+    padding:5px 0 30px 0;
 }
 
 #bluenavbar{
@@ -114,7 +116,7 @@ nav{
 #exploresection{
     width: 100%;
     height: 400px;
-    background-color: #10243B;
+    background-color: thistle;
 }
 
 #exploreheader{
@@ -128,6 +130,11 @@ nav{
     border-bottom: 8px solid skyblue;
 }
 
+#exploreheader img{
+    padding-top: 5px;
+}
+
+
 #explorecontent{
     height: 330px;
     width: 100%;
@@ -135,18 +142,81 @@ nav{
     display: inline;
 }
 
-#explorebox{
-    height: 328;
+.explorebox{
+    height: 328px;
     width: 25%;
-    background-color:green;
+    background-color: orangered;
 }
 
 .left{
-    float:left;
+    float: left;
 }
 
 #patriot{
-    background-image: url(images/patriots\ plaza.jpg);
+    background-image: url(images/patriots\ plaza.jpg);    
     background-position: center;
     background-size: cover;
 }
+
+#college{
+    background-image: url(images/college.png);    
+    background-position: center;
+    background-size: cover;
+
+}
+
+#ccnn{
+    background-image: url(images/ccnn.jpg);    
+    background-position: center;
+    background-size: cover;
+}
+
+#media{
+    background-image: url(images/ccnn\ live.png);    
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*---------------------------------- glance section --------------------------*/
+
+
+
+#glancesection{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 400px;
+
+}
+
+#glanceheader{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.glancebox{
+    display: inline;
+    width: 25%;
+    height: 340px;
+    text-align: center;    
+}
+
+.glancebox img{
+    width: 60%;
+}
+
+.glancebox h3{
+    color: firebrick;
+    font-size: 2em;
+}
+
+.glancebox p{
+    color: #333;
+    font-size: 1.2em;
+}
+
+
+
+
